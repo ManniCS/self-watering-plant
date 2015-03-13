@@ -55,6 +55,8 @@ void loop()
     Serial.println("Soil is of medium humidity!");
   else 
     Serial.println("Soil is wet!");  
+    
+  //TODO: log time of watering
   
   //read value from water-level sensor
   high_level = digitalRead(highPin);
@@ -63,23 +65,15 @@ void loop()
   
   Serial.println("**********************************");
   
-  Serial.print("High level: ");
-  Serial.println(high_level);
-  
-  Serial.print("Medium level: ");
-  Serial.println(medium_level);
-  
-  Serial.print("Low level: ");
-  Serial.println(low_level);
-  
-  Serial.println("**********************************");
-  
   if (!high_level && !medium_level && low_level) 
     Serial.println("Water getting low!");
   else if (!high_level && !medium_level && !low_level)
     Serial.println("Water low!");
-    
+  
+  //TODO: text owner
+  
   Serial.println("**********************************");
   Serial.println("**********************************");
+  
 }
 
