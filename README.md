@@ -19,23 +19,6 @@ Render plants more autonomous. Rather than remembering to water plants everyday,
 # Current phase
 Prototype. Pump successfully responsive to low soil moistures. Water levels accurately detected. Design still bulky.
 
-# Setup
-![](images/setup-side.jpg)
-
-![](images/moisture-sensor.jpg)
-Moisture sensor
-
-![](images/water-level.jpg)
-Water-level sensor. Bottom wire is at 5V. Arduino reads inputs from other 3 wires to determine which are electrically connected to the 5V wire.
-
-![](images/board.jpg)
-Water level wires, with pull down resistors.
-
-![](images/tubes.jpg)
-Tubing to pump water
-
-![](images/setup.jpg)
-
 
 # Future goals 
 - Miniaturize the system, and develop aesthetic casing.
@@ -44,3 +27,24 @@ Tubing to pump water
 - Connect to wireless (GSM/wifi) and develop partner app
   - Build texting capabilities to alert owner when water reserves are low
   - Keep track of missed and successful waterings (due to successful or unsuccessful fillings of the reserve by owner). 
+
+# Photos
+![](images/setup-side.jpg)
+
+![](images/moisture-sensor.jpg)
+
+Moisture sensor
+
+![](images/water-level.jpg)
+
+Water-level sensor. Bottom wire is at 5V. Arduino reads inputs from other 3 wires to determine which are electrically connected to the 5V wire.
+
+![](images/board.jpg)
+
+Water level wires, with pull down resistors.
+
+![](images/tubes.jpg)
+
+Tubing to pump water
+
+![](images/setup.jpg)
